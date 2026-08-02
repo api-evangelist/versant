@@ -1,24 +1,60 @@
 aid: versant
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/versant.png
 name: Versant
-description: 'Versant is a company surfaced as a portfolio company of trinity-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: enterprise-software. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Versant Corporation was an American software company that built specialized
+  object and NoSQL data-management systems, notably the Versant Object Database (VOD)
+  and the FastObjects embeddable object database. Its persistence technology was accessed
+  through language-native C++, Java (JDO/JPA-style) and .NET APIs rather than a REST
+  web API, and was deployed across telecommunications, energy, financial services,
+  transportation, manufacturing and defense. Backed by Trinity Ventures, Versant IPO''d
+  on NASDAQ (VSNT) in July 1996 and was acquired by Actian Corporation in December
+  2012; the product line continues today as the Actian NoSQL Object Database.'
 url: https://raw.githubusercontent.com/api-evangelist/versant/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - trinity-ventures
+x-status: exited
+x-status-detail: 'IPO on NASDAQ (VSNT) July 1996; acquired by Actian Corporation December 2012 (~$37M, $13.00/share)'
+x-acquired-by: actian
+x-successor-product: Actian NoSQL Object Database
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: exited-acquired-no-live-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise Software
+- Database
+- Object Database
+- NoSQL
+- Data Management
+- Acquired
 apis: []
+common:
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Versant_Corporation
+- type: LinkedIn
+  url: https://www.linkedin.com/company/versant
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
